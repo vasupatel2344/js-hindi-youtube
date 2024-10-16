@@ -214,7 +214,7 @@ var b = 620;
 // console.log("hello world");
 // console.log("Hello "+"world");
 // console.log("vasu "+"patel");
-// var Myname = "vasu   ";
+// var Myname = "vasu ";
 // console.log(Myname + " vegda");
 
 
@@ -239,11 +239,11 @@ var a = 5;
 var b = 10;
 
 // output a = 10 b =5;
-// var c = b;  // c=10;
-// b = a; //b = 5
-// a = c;
-// console.log("the value of a is " + a);
-// console.log("the value of b is " + b);
+var c = b;  // c=10;
+b = a; //b = 5
+a = c;
+console.log("the value of a is " + a);
+console.log("the value of b is " + b);
 
 
 //sol -4✔️; 
