@@ -597,14 +597,14 @@ sum()
 
 //6️⃣ Array in jvascript
 
-// var MyFrinds = ["vasu",20, 'kushal',20, "jeel",22, "tej",20,true]
+// var MyFrinds = ["vasu",20, 'kushal',20, "jeel",22, "tej", 20,true]
 // console.log(MyFrinds);
 
   // 1️⃣ Array subsection travesal in Array
 
 var myfrinds = ['vasu','jeel','harsh','fevil']
 
-// console.log(myfrinds[myfrinds.length - 2]);
+console.log(myfrinds[myfrinds.length - 2]);
 
 // console.log(myfrinds.length);
 // console.log(myfrinds);
@@ -668,7 +668,6 @@ var myfrinds = ['vasu','jeel','harsh','fevil']
 // const bhajiya = ['thepla' , 'gathiya' , 'khaman'];
 
 // const count = bhajiya.push('dabeli');
-// console.log(bhajiya);
 // console.log(count);
 
 // &&&&&&&
