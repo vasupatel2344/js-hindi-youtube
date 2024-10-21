@@ -5,7 +5,7 @@
 
 
 // let valueInNumber = String(score); //  number
-console.log(typeof valueInNumber);
+// console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
 
@@ -13,11 +13,11 @@ console.log(typeof valueInNumber);
 // "33abc" => NaN
 //true =>1; false => 0.
 
-let isLoggedIn = "";
+// let isLoggedIn = "";
 
-let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(booleanIsLoggedIn);
-console.log(typeof booleanIsLoggedIn);
+// let booleanIsLoggedIn = Boolean(isLoggedIn);
+// console.log(booleanIsLoggedIn);
+// console.log(typeof booleanIsLoggedIn);
 
 
 // 1 =>true; 0 => false
@@ -61,8 +61,10 @@ console.log(typeof booleanIsLoggedIn);
 
 // console.log((3 + 4) * 5 % 6);
 
-// console.log(+true);
-// console.log(+ "");
+console.log(+true);
+console.log(+ "");
+console.log(-false);
+
 
 
 let num1, num2, num3
