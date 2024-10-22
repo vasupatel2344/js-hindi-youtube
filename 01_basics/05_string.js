@@ -12,8 +12,10 @@ const gameName = new String('vasu_vegda')
 
 console.log(gameName);
 
-// console.log(gameName[0]);
-// console.log(gameName.__proto__);
+console.log(gameName[0]);
+console.log(gameName.__proto__);
+console.log(typeof gameName.__proto__);
+
 
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
@@ -27,11 +29,12 @@ const newStringOne = "   vasu    ";
 // console.log( newStringOne.trim);
 
 
+
 const url = "https://vasu=1223.com"
 
-console.log(url.replace('=', ''));
+// console.log(url.replace('=', '-'));
 
 
-url.includes('vasu') ? console.log("vasu is present") : console.log("vasu is not present");
+// url.includes('vasu') ? console.log("vasu is present") : console.log("vasu is not present");
 
-console.log(gameName.split('-'));
+// console.log(gameName.split('-'));

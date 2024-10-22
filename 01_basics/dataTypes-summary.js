@@ -22,7 +22,6 @@ const bigint = 1234n;
 // console.log(typeof bigint);   
 
 
-
 const id = Symbol('123')
 const Id = Symbol('123');
 
@@ -35,9 +34,9 @@ const Id = Symbol('123');
 
 
 const heros = {"shaktiman": "naagraj" };
-console.log(heros);
-console.log(typeof heros);
-console.log(typeof shaktiman);
+// console.log(heros);
+// console.log(typeof heros);
+// console.log(typeof shaktiman);
 
 
 
@@ -46,10 +45,18 @@ let myObj = {
     age: 22,
     isLoggedIn: true
 }
+// console.log(myObj);
+// console.log(myObj.age);
 
-const myFunction = function  () {
+const myobj = String(myObj.age);
+// console.log(myobj);
+// console.log(typeof myobj);
+
+
+const myFunction = function(){
     console.log("Hello world");
 }
+
 
 // console.log(myFunction);
 
@@ -59,16 +66,16 @@ const myFunction = function  () {
 
 // Reference (Non Primitive) | \/
 
-// Array,Objects,Functions vasu vasvasu vasu
+// Array,Objects,Functions vasu 
 
 // ==================================================================================================
 
 // Stack(Primitive) , Heap (Non Primitive)      // < = Memory
 
-let myYoutubename = "vasupatel2344@gmail.com"
+let myYoutubename = "vasupatel2344@gmail.com";
 
-let anothername = myYoutubename
-anothername = "chaiaurcode"
+let anothername = myYoutubename;
+anothername = "chaiaurcode";
 
 // console.log(myYoutubename);
 // console.log(anothername);
@@ -82,7 +89,7 @@ let userTwo = userOne;
 
 userTwo.email = "vasu123@gmail.com"
 
-// console.log(userOne.email);
-// console.log(userTwo.email);
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
