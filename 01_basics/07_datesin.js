@@ -14,15 +14,15 @@ let myCreateDate = new Date("01-10-2023");
 let myTimeStamp = Date.now();
 
 // console.log(myTimeStamp);
-// console.log(myCreateDate.getTime);
+// console.log(myCreateDate.getTime());
 // console.log(Math.floor(Date.now()/1000));
 
 let newDate = new Date()
 console.log(newDate);
-console.log(newDate.getMonth());
-console.log(newDate.getDay());
+// console.log(newDate.getHours(), newDate.getMinutes(), newDate.getSeconds());
+// console.log(newDate.getDay());
 
-// `${newDate.getDay()} and the time`
+// `${newDate.getDay()} and the time` 
 
 let theNewDate = newDate.toLocaleString('default', {
     weekday: "long",
@@ -31,7 +31,7 @@ let theNewDate = newDate.toLocaleString('default', {
     saturday: "short"
 });
 
-
+console.log(theNewDate);
 
 // let newDates = new Date(); // current date
 // let formattedDate = newDates.toLocaleString('default', {
@@ -42,6 +42,3 @@ let theNewDate = newDate.toLocaleString('default', {
 // });
 
 // console.log(formattedDate, "sunday");  // Output: "Monday", "Tuesday", etc.
-
-
-

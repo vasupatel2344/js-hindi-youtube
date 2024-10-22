@@ -1,38 +1,43 @@
 const marvel_heros = ["thor", "ironman", "spiderman"];
 const dc_heros = ["superman", "flash", "batman"];
 
-// const marvel = marvel_heros.push(dc_heros);
-
-// marvel_heros.push(dc_heros);
-// console.log(marvel);
+marvel_heros.push(dc_heros);
 
 // console.log(marvel_heros);
-// console.log(marvel_heros[3][0]);
+// marvel_heros.push(dc_heros);
+
+// console.log(marvel_heros);
+// console.log(marvel_heros[3][1]);
 
 
-// const allHeros = marvel_heros.concat(dc_heros)
+const allHeros = marvel_heros.concat(dc_heros)
 // console.log(allHeros);
 
-const allNewHeros = [...marvel_heros, ...dc_heros]
+// const allNewHeros = [...marvel_heros, ...dc_heros]  // spared operator
 
-console.log(allNewHeros);
-
-
-// const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
-
-// const real_another_array = another_array.flat()
-
-// console.log(real_another_array);
+// console.log(allNewHeros);
 
 
-// console.log(Array.isArray("vasu"));
-// console.log(Array.from("vasu"));
+const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
-// console.log(Array.from({ name: "vasu" }));
+const real_another_array = another_array.flat(3)
+
+// console.log(real_another_a rray);
 
 
-// let score1 = 100
-// let score2 = 200
-// let score3 = 300
+console.log(Array.isArray("vasu"));
+console.log(Array.from("vasu"));
+console.log(Array.from({name: "vasu"}));    
 
-// console.log(Array.of(score1, score2, score3));
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1, score2, score3));
+
+
+
+
+
+

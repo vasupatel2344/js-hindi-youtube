@@ -1,8 +1,15 @@
 //Array
 
-let myArray = [0, 1, 2, 3, 4, 5]
+const myArray = [1, 2, 3, 4, 5, 6, 7, 8]
 
-// console.log(array[1]);
+// console.log(myArray[0]);
+
+// const myHeroes = ["shaktiman", "naagraj"]
+
+// const myArr2 = new Array(1,2,3,4)
+
+// console.log(myArr2);
+
 
 // Array methods
 
@@ -19,11 +26,10 @@ let myArray = [0, 1, 2, 3, 4, 5]
 // console.log(myArray.includes(9));
 // console.log(myArray.indexOf(5));
 
-// const newArr = myArray.join()
+// const newArr = myArray.join()     //important
 // console.log(myArray);
 // console.log(newArr);
 // console.log(typeof newArr);
-
 
 
 // slice ,splice 
@@ -41,8 +47,5 @@ let arr = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 // console.log("c", arr);
 
 
-const myn2 = arr.some(1, 3)
-console.log(myn2);
-
-
-
+// const myn2 = arr(1, 3)
+// console.log(myn2);
