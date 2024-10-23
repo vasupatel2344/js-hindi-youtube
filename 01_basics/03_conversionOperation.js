@@ -24,6 +24,10 @@
 // "" => false
 // "vasu" => true
 
+// let isLoggedIn = "vasu";
+// console.log(isLoggedIn);
+
+
 // let someNumber = 33;
 // let stringNumber = String(someNumber)
 // console.log(stringNumber);
@@ -61,9 +65,9 @@
 
 // console.log((3 + 4) * 5 % 6);
 
-console.log(+true);
-console.log(+ "");
-console.log(-false);
+// console.log(+true);
+// console.log(+ "");
+// console.log(-false);
 
 
 

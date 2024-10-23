@@ -6,7 +6,6 @@ function name() {
     console.log("s");
     console.log("u");
 }
-
 name();
 
 // function addTwoNumber(number1, number2) {

@@ -4,7 +4,7 @@ const score = 400
 // console.log(score);
 
 
-const balance = new Number(1000 * 2)
+const balance = new Number(1000 * 2);
 // console.log('1', balance);
 // console.log('1', );
 
@@ -39,9 +39,9 @@ const hundreds = 1000000
 const min = 10
 const max = 20
 const random = Math.random()
-console.log("RANDOM VALUE", random);
+// console.log("RANDOM VALUE", random);
 
-console.log(Math.random());
+// console.log(Math.random());
 
 const min_plush_max = max - min + 1
 const min_plush_min = min - max + 1
