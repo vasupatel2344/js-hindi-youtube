@@ -10,6 +10,8 @@ tinderUser.id = "vasu123"
 tinderUser.name = "vasu"            // name is keys    &    vasu is value
 tinderUser.isLoggedIn = false
 
+// console.log(tinderUser.name);
+
 
 const regularUser = {
     email: "vasu123@gmail.com",
@@ -54,41 +56,55 @@ const user = [
     }
 ]
 
-
 // console.log(user[1].email);
-// console.log(tinderUser);
+console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser));
+// console.log(Object.keys(user));
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
+console.log(Object.freeze(tinderUser));
+
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
-
 const course = {
-    courseInstructor: "vasu patel",
-    coursename: "JS hindi",
-    price: 999
+    coursename: "js hinditions",
+    price: 999,
+    courseInstructor: "hitesh sir"
 }
+
+// course.courseInstructor="vasu kumar" // change value
+
+console.log(course);
 
 const { courseInstructor: Instructor } = course
 
-// console.log(courseInstructor);
-console.log(Instructor);
 
 
-[
-    {},
-    {},
-    {},
-    {},
-    {}
-]
+// {
+//     name: "vasu ",
+//     coursename : "js hindi",
+//     price: "free"
+// }
 
 
 
+// [Array]
 
+// {Object}
+
+
+
+
+// console.log(Instructor);
+
+// const navbar =   (props.company)  => {
+//     console.log(`Welcome to ${props.company} website!`)   //  < =  di-structure
+
+// }
+
+// navbar(company= "Vasu")
 
 // this is a secret of are energy 
 /* 

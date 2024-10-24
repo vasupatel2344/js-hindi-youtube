@@ -18,7 +18,7 @@ const JsUser = {
     email: "vasu@gmail.com",
     isLoggedIn: false,
     lastLoginDays: ["Mooonday", "Saturday"]
-}  //  < = This Is Objects
+} //  < = This Is Objects
 
 // console.log(JsUser.age);
 // console.log(typeof JsUser["age"]);
@@ -48,10 +48,6 @@ JsUser.greetingTwo = function () {
 console.log("1", JsUser.greeting());
 
 console.log("2", JsUser.greetingTwo());
-
-
-
-
 
 /* const mySym = Symbol("key1")
 
