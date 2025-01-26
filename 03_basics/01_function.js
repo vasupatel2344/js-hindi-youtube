@@ -8,22 +8,20 @@
 // }
 // MyName();               // 1 reference (execution)
 
-// function addTwoNumber(number1, number2) {   // parameters (number1, number2)
-// console.log(number1 + number2);
-// }
+function addTwoNumber(number1, number2) {   // parameters (number1, number2)
+console.log(number1 + number2);
+}
 
-// addTwoNumber("Value is = " , (10,25));       // parameter (10, 25)
+addTwoNumber("Value is = " , (10,25));       // parameter (10, 25)
 
 
-// function addTwoNumber(number1, number2) {
+function addTwoNumber(number1, number2) {
+    console.log(number1 + number2);
+}
 
-//     console.log(number1 + number2);
+const result = addTwoNumber(10, 25);
 
-// }
-
-// const result = addTwoNumber(10, 25);
-
-// console.log(result);
+console.log(result);
 
 
 
@@ -45,9 +43,9 @@
 // console.log(result);
 
 
-function loginUserMessage(username) {
-    return `${username} just login in`
-}
+// function loginUserMessage(username) {
+//     return `${username} just login in`
+// }
 
 // console.log(loginUserMessage("vasu"));
 
@@ -62,38 +60,38 @@ function loginUserMessage(username) {
 
 // console.log(prints("vasu")); 
 
-function calculateCartPrice(...num1) {
-    return num1
-}
+// function calculateCartPrice(...num1) {
+//     return num1
+// }
 
-console.log(calculateCartPrice(200, 400, 500, 2000, 3000, 4000));      // rest operators // output Array
+// console.log(calculateCartPrice(200, 400, 500, 2000, 3000, 4000));      // rest operators // output Array
 
-function calculateCartPrices(valu1, valu2, ...num1) {
-    return num1
-}
+// function calculateCartPrices(valu1, valu2, ...num1) {
+//     return num1
+// }
 
-console.log(calculateCartPrices(200, 400, 500, 2000, 3000, 4000));
+// console.log(calculateCartPrices(200, 400, 500, 2000, 3000, 4000));
 
-const user = {
-    username: 'vasu',
-    price: 199
-}
+// const user = {
+//     username: 'vasu',
+//     price: 199
+// }
 
-function handleobject(anyobject) {
-    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
-}
+// function handleobject(anyobject) {
+//     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+// }
 
-handleobject(user);
-handleobject({
-    username: "sam",
-    price: 399
-});
+// handleobject(user);
+// handleobject({
+//     username: "sam",
+//     price: 399
+// });
 
-const myNewArray = [200, 400, 100, 600]
+// const myNewArray = [200, 400, 100, 600]
 
-function returnSecondvalue(getArray) {
-    return getArray[3]
-}
+// function returnSecondvalue(getArray) {
+//     return getArray[3]
+// }
 
-console.log(returnSecondvalue(myNewArray));
+// console.log(returnSecondvalue(myNewArray));
 

@@ -146,8 +146,8 @@ var newNum = ++num;
 
 // 🔴 decrement operator
 
-// var num = 15;̣̣
-// var newNum = num--;
+var num = 15;  
+var newNum = num--;
 // console.log(num);  
 // console.log(newNum);
 
@@ -166,9 +166,9 @@ var a = 30;
 var b = 20;
   
 // equal (==)4
-console.log(a == b);
+// console.log(a == b);
 // not equal(a != b)
-console.log(a != b);
+// console.log(a != b);
 
 // greater then (>)
 // console.log(a > b);
@@ -242,8 +242,8 @@ var b = 10;
 var c = b;  // c=10;
 b = a; //b = 5
 a = c;
-console.log("the value of a is " + a);
-console.log("the value of b is " + b);
+// console.log("the value of a is " + a);
+// console.log("the value of b is " + b);
 
 
 //sol -4✔️; 
@@ -389,7 +389,7 @@ var pi = 3.142, l=5 , b= 4, r =3;
 var num = 0; // inisyal value
 debugger;
 while (num <= 100) {
-    console.log(num++); //infinte loop
+    // console.log(num); //infinte loop
   num++
 }
 
@@ -416,7 +416,7 @@ for(var num = 10; num <= 100; num++){
 // debugger;
 // for (var num = 1; num <= 10; num++){
 //     var tableof = 8;
-//     console.log(tableof + " + " + num + " = " + tableof * num);
+    console.log(tableof + " + " + num + " = " + tableof * num);
 //     }
 ///////////////////////////////////////////////////////////
 
@@ -453,7 +453,7 @@ function sum(){
   var total = a + b;
   console.log(total);
 }
-sum()
+// sum()
 
 // 3️⃣ function parameter VS function arguments
 
@@ -571,7 +571,9 @@ sum()
 
 
 //4️⃣
+
 //5️⃣
+
 //6️⃣ fat array function
 // normal way to writing function 
 
@@ -592,7 +594,9 @@ sum()
 // console.log(sum());
 
 //7️⃣
+
 //8️⃣
+
 //9️⃣
 
 //6️⃣ Array in jvascript
@@ -651,13 +655,9 @@ var myfrinds = ['vasu','jeel','harsh','fevil']
 
 // 2️⃣ Array sunsection 2searching and filter in array
 
-   
-
 
 
 // 3️⃣  
-
-
 
 
 
@@ -698,7 +698,7 @@ var myfrinds = ['vasu','jeel','harsh','fevil']
 // myNumber.unshift ('6,7');
 // console.log(myNumber);
 
-// ///////////// 
+// //////////////////////////////////////
 // const bhajiya = ['thepla' , 'gathiya' , 'khaman'];
 
 // bhajiya.unshift  ('khakra' , 'khandvi' , 'dabeli');
@@ -792,7 +792,7 @@ var myfrinds = ['vasu','jeel','harsh','fevil']
 
 
 // it returnnew array without muting the orignal array
- 
+
 // console.error("vasu patel");
 // array
 

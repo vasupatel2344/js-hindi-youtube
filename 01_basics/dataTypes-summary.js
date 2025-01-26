@@ -19,7 +19,7 @@ let userEmail;
 
 const bigint = 1234n;
 // console.log(bigint);
-// console.log(typeof bigint);   
+// console.log(typeof bigint);
 
 
 const id = Symbol('123')
@@ -27,13 +27,10 @@ const Id = Symbol('123');
 
 // console.log(id === Id);
 
-
 // console.log(id === anotherId);
 
 
-
-
-const heros = {"shaktiman": "naagraj" };
+const heros = {"shaktiman": "naagraj"};
 // console.log(heros);
 // console.log(typeof heros);
 // console.log(typeof shaktiman);
