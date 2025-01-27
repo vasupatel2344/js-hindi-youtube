@@ -15,7 +15,7 @@
 // console.log("5", 1+null >= 1);
 // console.log("6", undefined == 0);
 
-compression operator
+
 
 console.log(undefined == NaN);      // == check value 
 console.log(undefined === null);    // === check value and datatypes
