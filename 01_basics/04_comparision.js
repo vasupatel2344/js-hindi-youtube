@@ -1,5 +1,5 @@
 // console.log("1", 2 > 1);
-// console.log("2", 2 >= 10);
+// console.log("2", 2 <= 1);
 // console.log("3", 2 < 1);
 // console.log("4", 2 <= 1);
 // console.log("5", 2 == 1);
@@ -10,11 +10,15 @@
 
 // console.log("1", null > 0);
 // console.log("2", null == 0);
-// console.log("3", null >= 0);
-// console.log("4", undefined == 0);
+// console.log("3", null === 0);
+// console.log("4", null >= 1);
+// console.log("5", 1+null >= 1);
+// console.log("6", undefined == 0);
 
-// console.log(undefined == NaN);
-// console.log(undefined === null);
+compression operator
+
+console.log(undefined == NaN);      // == check value 
+console.log(undefined === null);    // === check value and datatypes
 
 
 // console.log("2" <  2);
