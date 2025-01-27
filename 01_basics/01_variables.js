@@ -1,3 +1,8 @@
+const accountId = 123547;
+let accountEmail = "vasuvegda2344@gmail.com";
+var accountedPassword = "12345";
+accountCity = "bhayavadar";
+
 console.log("Vasu Patel");
 
 const accoundId = 1234;
@@ -9,6 +14,9 @@ const accoundId = 1234;
 
 // console.log(accountEmail, accountPassword, accountCity);
 // console.table([accountEmail, accountPassword, accountCity]);
+
+/* prefer not to use var 
+because of use in block scope and function scope */
 
 // accountId = 2 // not allowed
 
