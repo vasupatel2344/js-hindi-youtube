@@ -39,7 +39,6 @@ const myDates = newDate.toLocaleString('default', {
     weekday: "narrow"
 }); 
 
-complite
 
 // console.log(myDates);
 
