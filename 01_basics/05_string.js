@@ -28,8 +28,8 @@ const gameName = new String('VASU_VEGDA')
 // console.log(gameName.slice(-10, 8));
 
 const newStringOne = "   vasu    ";
-// console.log( newStringOne);
-// console.log( newStringOne.trim);
+console.log( newStringOne);
+console.log( newStringOne.trim);
 
 
 
@@ -43,6 +43,6 @@ const url = "https://vasupatel/2321@gmail.com"
 // console.log(gameName.split('z'));    // ??
 
 
-// url.includes('vasu') ? console.log("vasu is present") : console.log("vasu is not present");
+url.includes('vashu') ? console.log("vasu is present") : console.log("vasu is not present");
 
-// console.log(gameName.split('-'));
+console.log(gameName.split('-'));
