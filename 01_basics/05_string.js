@@ -6,21 +6,24 @@ const repoCount = 50;
 // console.log(name + repoCount + "Value");
 
 
-// console.log(`Hello my name is ${name.touppercase} and may repo count is ${repoCount}`);
+// console.log(`Hello my name is ${name} and may repo count is ${repoCount}`); // <= string interpolation
 
-const gameName = new String('vasu_vegda')
+// console.log(`Hello my name is ${name.toUpperCase()} and may repo count is ${Number.repoCount}`);  
 
-console.log(gameName);
+const gameName = new String('VASU_VEGDA')
 
-console.log(gameName[0]);
-console.log(gameName.__proto__);
-console.log(typeof gameName.__proto__);
+// console.log(gameName);
+
+// console.log(gameName[0]);
+// console.log(gameName.__proto__);
+// console.log(typeof gameName.__proto__);
 
 
 // console.log(gameName.length);
-// console.log(gameName.toUpperCase());
+// console.log(gameName.toLowerCase());
 // console.log(gameName.charAt(2));
 // console.log(gameName.indexOf('a'));            // THIS IS METHOD ONLY
+
 // console.log(gameName.substring(0, 4));
 // console.log(gameName.slice(-10, 8));
 
@@ -30,9 +33,14 @@ const newStringOne = "   vasu    ";
 
 
 
-const url = "https://vasu=1223.com"
+const url = "https://vasupatel/2321@gmail.com"
 
-// console.log(url.replace('=', '-'));
+// console.log(url.replace('21', '44'));
+
+// console.log(url.includes('https://vasupatel'));
+
+
+// console.log(gameName.split('z'));    // ??
 
 
 // url.includes('vasu') ? console.log("vasu is present") : console.log("vasu is not present");

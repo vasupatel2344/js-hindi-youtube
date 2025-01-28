@@ -1,7 +1,7 @@
 // primitives
 
 // 7 types primitives : String,Number ,Boolean,Null,Undefined,Symbol,Bigint
-// 3 types non primitives : Array, object, Function
+// 3 types non primitives (reference)  : Array, object, Function
 
 const score = 100
 const scoreValue = 100.3
@@ -22,22 +22,24 @@ const bigint = 1234n;
 // console.log(typeof bigint);
 
 
-const id = Symbol('123')
-const Id = Symbol('123');
+/* const id = Number("686828")
+const Id = Number("686828");
+console.log(id);
+const idType = typeof id;
+console.log("id type",idType);
 
-// console.log(id === Id);
+console.log(id == Id);
 
-// console.log(id === anotherId);
+console.log(id === Id);
 
+const heros = { "shaktiman": "naagraj" }; */
 
-const heros = {"shaktiman": "naagraj"};
 // console.log(heros);
 // console.log(typeof heros);
 // console.log(typeof shaktiman);
 
 
-
-let myObj = { 
+let myObj = {
     name: "vasu",
     age: 22,
     isLoggedIn: true
@@ -50,8 +52,13 @@ const myobj = String(myObj.age);
 // console.log(typeof myobj);
 
 
-const myFunction = function(){
+const myFunction = function () {
     console.log("Hello world");
+}
+
+const sunction = () => {
+    console.log("hello world!");
+
 }
 
 
@@ -60,33 +67,63 @@ const myFunction = function(){
 // console.log(typeof myFunction);
 // console.log(typeof another);
 
-
-// Reference (Non Primitive) | \/
+//   _
+// Reference (Non Primitive)  \//-\S|_|
 
 // Array,Objects,Functions vasu 
 
 // ==================================================================================================
 
-// Stack(Primitive) , Heap (Non Primitive)      // < = Memory
+// Stack(Primitive)==> copy value , Heap (Non Primitive) => original value     // < = Memory
 
-let myYoutubename = "vasupatel2344@gmail.com";
+// Primitive datatypes => String,Number ,Boolean,Null,Undefined,Symbol,Bigint
 
+// Non Primitive datatypes => Objects Array Function
+
+
+
+let myYoutubename = "vasupatel123@gmail.com";
+// let chaiaurcode = Number ("1");
 let anothername = myYoutubename;
 anothername = "chaiaurcode";
+console.log(typeof anothername);
 
-// console.log(myYoutubename);
-// console.log(anothername);
+
+console.log(myYoutubename);
+console.log(anothername);
+
 
 let userOne = {
     email: "user@google.com",
     upi: "user@ybl"
 }
 
+// object in primitive datatypes
+
 let userTwo = userOne;
+console.log(typeof userTwo);
 
 userTwo.email = "vasu123@gmail.com"
 
-console.log(userOne.email);
-console.log(userTwo.email);
+// console.log(userOne.email);
+// console.log(userTwo.email);
+
+
+
+// let x = 6;
+// console.log(x);
+
+// for (let i = 0; i < 7; i++) {
+//     if(x=i){
+//         console.log(x, "11 = string" ,i);
+//     }else(
+//         console.log("it's value still not met the requirement")
+//     )
+// }
+
+
+
+
+
 
 
