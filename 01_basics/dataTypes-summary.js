@@ -61,11 +61,14 @@ const sunction = () => {
 
 }
 
+// myFunction();
+// sunction();
 
-// console.log(myFunction);
 
-// console.log(typeof myFunction);
-// console.log(typeof another);
+console.log(myFunction);
+
+console.log(typeof myFunction);
+console.log(typeof another);
 
 //   _
 // Reference (Non Primitive)  \//-\S|_|
@@ -74,7 +77,7 @@ const sunction = () => {
 
 // ==================================================================================================
 
-// Stack(Primitive)==> copy value , Heap (Non Primitive) => original value     // < = Memory
+// Stack(Primitive)==> copy value || Heap (Non Primitive) => original value     // < = Memory
 
 // Primitive datatypes => String,Number ,Boolean,Null,Undefined,Symbol,Bigint
 
@@ -86,11 +89,11 @@ let myYoutubename = "vasupatel123@gmail.com";
 // let chaiaurcode = Number ("1");
 let anothername = myYoutubename;
 anothername = "chaiaurcode";
-console.log(typeof anothername);
+// console.log(typeof anothername);
 
 
-console.log(myYoutubename);
-console.log(anothername);
+// console.log(myYoutubename);
+// console.log(anothername);
 
 
 let userOne = {
@@ -103,11 +106,11 @@ let userOne = {
 let userTwo = userOne;
 console.log(typeof userTwo);
 
+
 userTwo.email = "vasu123@gmail.com"
 
-// console.log(userOne.email);
-// console.log(userTwo.email);
-
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
 // let x = 6;
@@ -120,10 +123,4 @@ userTwo.email = "vasu123@gmail.com"
 //         console.log("it's value still not met the requirement")
 //     )
 // }
-
-
-
-
-
-
 
