@@ -84,7 +84,6 @@ console.log(typeof another);
 // Non Primitive datatypes => Objects Array Function
 
 
-
 let myYoutubename = "vasupatel123@gmail.com";
 // let chaiaurcode = Number ("1");
 let anothername = myYoutubename;
@@ -113,14 +112,16 @@ console.log(userOne.email);
 console.log(userTwo.email);
 
 
-// let x = 6;
-// console.log(x);
+let x = 10;
+console.log(x);
 
-// for (let i = 0; i < 7; i++) {
-//     if(x=i){
-//         console.log(x, "11 = string" ,i);
-//     }else(
-//         console.log("it's value still not met the requirement")
-//     )
-// }
+for (let i = 0; i < 7; i++) {
+    if (x = i) {
+        console.log(x, "11 = string" + i);
+    } else (
+        console.log("it's value still not met the requirement")
+    )
+}
+
+
 
