@@ -101,7 +101,7 @@ let userOne = {
     isValue : true
 }
 
-rivition
+
 // console.log(userOne);
 // console.log(typeof userOne);
 // console.log(userOne.upi);
