@@ -1,27 +1,20 @@
+// console.log("Vasu Patel");
+
 const accountId = 123547;
 let accountEmail = "vasuvegda2344@gmail.com";
-var accountedPassword = "12345";
+var accountPassword = "12345";
 accountCity = "bhayavadar";
+let accountstate;
 
-console.log("Vasu Patel");
-
-const accoundId = 1234;
-
-// let accountEmail = "vasupatel@gmail.com";
-// let accountPassword = "12345";
+// accountEmail = "vasupatel@gmail.com";
+// accountEmail = "vasuvegda@gmail.com";
+// accountPassword = "123452354";
 // accountCity = "rajkot";
 
+// console.log(accountEmail);
 
-// console.log(accountEmail, accountPassword, accountCity);
-// console.table([accountEmail, accountPassword, accountCity]);
+console.log(accountEmail, accountPassword, accountCity, accountstate);
+console.table([accountEmail, accountPassword, accountCity, accountstate]);
 
-/* prefer not to use var 
+/* prefer not to use VAR 
 because of use in block scope and function scope */
-
-// accountId = 2 // not allowed
-
-accountEmail = "v123@gmail.com";
-accountPassword = "1234567890";
-accountCity = "ahmedabad";
-let accountState;
-console.table([accoundId, accountEmail, accountPassword, accountCity, accountState]);

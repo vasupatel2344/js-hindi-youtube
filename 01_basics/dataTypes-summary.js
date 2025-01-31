@@ -97,8 +97,24 @@ anothername = "chaiaurcode";
 
 let userOne = {
     email: "user@google.com",
-    upi: "user@ybl"
+    upi: "user@ybl",
+    isValue : true
 }
+
+rivition
+// console.log(userOne);
+// console.log(typeof userOne);
+// console.log(userOne.upi);
+// console.log(userOne.isValue);
+// console.log(typeof userOne.isValue);
+
+
+const bigNumber = 2179865127838065n
+
+console.log(bigNumber);
+console.log(typeof bigNumber);
+    
+
 
 // object in primitive datatypes
 
@@ -108,20 +124,20 @@ console.log(typeof userTwo);
 
 userTwo.email = "vasu123@gmail.com"
 
-console.log(userOne.email);
-console.log(userTwo.email);
+// console.log(userOne.email);
+// console.log(userTwo.email);
 
 
-let x = 10;
-console.log(x);
+// let x = 10;
+// console.log(x);
 
-for (let i = 0; i < 7; i++) {
-    if (x = i) {
-        console.log(x, "11 = string" + i);
-    } else (
-        console.log("it's value still not met the requirement")
-    )
-}
+// for (let i = 0; i < 7; i++) {
+//     if (x = i) {
+//         console.log(x, "11 = string" + i);
+//     } else (
+//         console.log("it's value still not met the requirement")
+//     )
+// }
 
 
 

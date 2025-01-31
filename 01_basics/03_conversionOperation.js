@@ -1,7 +1,7 @@
 let score = "89abc"
 
-// console.log(typeof score);
-// console.log(typeof (score));
+console.log(typeof score);
+console.log(typeof (score));
 
 let valueInNumber = Number(score); //  number
 // console.log(typeof valueInNumber);
@@ -31,6 +31,7 @@ let valueInNumber = Number(score); //  number
 // console.log(stringNumber);
 // console.log(typeof (stringNumber));
 
+// console.log(typeof bigin);
 
 
 

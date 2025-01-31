@@ -10,7 +10,7 @@ const repoCount = 50;
 
 // console.log(`Hello my name is ${name.toUpperCase()} and may repo count is ${Number.repoCount}`);  
 
-const gameName = new String('VASU_VEGDA')
+const gameName = new String('VASU_VEGDA');
 
 // console.log(gameName);
 
@@ -28,8 +28,8 @@ const gameName = new String('VASU_VEGDA')
 // console.log(gameName.slice(-10, 8));
 
 const newStringOne = "   vasu    ";
-console.log( newStringOne);
-console.log( newStringOne.trim);
+console.log("1", newStringOne);
+console.log("2", newStringOne.trim);
 
 
 
@@ -45,4 +45,4 @@ const url = "https://vasupatel/2321@gmail.com"
 
 url.includes('vashu') ? console.log("vasu is present") : console.log("vasu is not present");
 
-console.log(gameName.split('-'));
+console.log(gameName.split());
