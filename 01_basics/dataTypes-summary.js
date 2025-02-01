@@ -22,7 +22,7 @@ const bigint = 1234n;
 // console.log(typeof bigint);
 
 
-/* const id = Number("686828")
+const id = Number("686828")
 const Id = Number("686828");
 console.log(id);
 const idType = typeof id;
@@ -32,7 +32,8 @@ console.log(id == Id);
 
 console.log(id === Id);
 
-const heros = { "shaktiman": "naagraj" }; */
+const heros = { "shaktiman" : "naagraj" };
+
 
 // console.log(heros);
 // console.log(typeof heros);
@@ -128,16 +129,16 @@ userTwo.email = "vasu123@gmail.com"
 // console.log(userTwo.email);
 
 
-// let x = 10;
-// console.log(x);
+let x = 10;
+console.log(x);
 
-// for (let i = 0; i < 7; i++) {
-//     if (x = i) {
-//         console.log(x, "11 = string" + i);
-//     } else (
-//         console.log("it's value still not met the requirement")
-//     )
-// }
+for (let i = 0; i < 7; i++) {
+    if (x = i) {
+        console.log(x, "11 = string" + i);
+    } else (
+        console.log("it's value still not met the requirement")
+    )
+}
 
 
 
