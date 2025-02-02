@@ -1,6 +1,155 @@
 // Function
 
-// function MyName() {     //  function <keyword MyName(  syntax ) {   
+
+// function MyName() {
+//     console.log('V');
+//     console.log('A');
+//     console.log('S');
+//     console.log('U');
+// }
+
+// MyName()
+
+// function addTwoNumber(number1, number2) {
+//     console.log(number1 * number2);
+// }
+
+// addTwoNumber(5, 10)
+
+
+
+function addTwoNumber(number1, number2) {
+    console.log(number1 + number2);
+
+}
+
+// addTwoNumber(5, 10)
+// console.log("result", result);
+
+
+
+// function loginUserMessage(username ="sam"){    // 
+//     console.log("Hello Gentlemen");
+//     if(!username){      // username === undefined
+//         console.log("Please enter a username for login...");
+//     }else {
+//         console.log(`Welcome, ${username}!`);  // template literals are used to insert variables into strings //??
+//     }
+//     return `${username} just logged in`   // return statement is used to exit the function and return the result // ??
+    
+// }
+
+// const userMessage = loginUserMessage("Vasu_Vegda");
+
+// console.log(userMessage);
+
+
+function calculateCartPrice(...num1) {
+    return num1 
+}
+
+// console.log(calculateCartPrice(200,300,400));
+
+const user = {
+    username: "vsau_vegda",
+    age:22,
+    price: 999
+}
+
+
+function handleobject(userobj){
+    console.log(`Username is ${userobj.username} and price is ${userobj.price}`);
+
+}
+
+handleobject(user)
+
+const myNewAray = [200,300,400,500]
+
+function secouundobj (getArray){
+    return getArray  
+}
+
+console.log(secouundobj(myNewAray));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function MyName() {     //  function <keyword MyName(  syntax ) {
 //     console.log("v");
 //     console.log("a");
 //     console.log("s");
@@ -8,20 +157,20 @@
 // }
 // MyName();               // 1 reference (execution)
 
-function addTwoNumber(number1, number2) {   // parameters (number1, number2)
-console.log(number1 + number2);
-}
+// function addTwoNumber(number1, number2) {   // parameters (number1, number2)
+// console.log(number1 + number2);
+// }
 
-addTwoNumber("Value is = " , (10,25));       // parameter (10, 25)
+// addTwoNumber("Value is = " , (10,25));       // parameter (10, 25)
 
 
-function addTwoNumber(number1, number2) {
-    console.log(number1 + number2);
-}
+// function addTwoNumber(number1, number2) {
+//     console.log(number1 + number2);
+// }
 
-const result = addTwoNumber(10, 25);
+// const result = addTwoNumber(10, 25);
 
-console.log(result);
+// console.log(result);
 
 
 
@@ -37,9 +186,9 @@ console.log(result);
 //     // let result = number1 + number2;
 //     // return result
 //     return number1+number2;
-// }  
+// }
 
-// const result = addTwoNumber(10, 25); 
+// const result = addTwoNumber(10, 25);
 // console.log(result);
 
 
@@ -58,7 +207,7 @@ console.log(result);
 //     return print
 // }
 
-// console.log(prints("vasu")); 
+// console.log(prints("vasu"));
 
 // function calculateCartPrice(...num1) {
 //     return num1
