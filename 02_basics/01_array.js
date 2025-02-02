@@ -5,8 +5,17 @@
 
 let arr = [1, 2, 3];
 
-// console.log(typeof arr);
-// console.log(Array.isArray(arr));
+console.log(typeof arr);
+console.log(Array.isArray(arr));
+
+const string = String(arr);0
+console.log(typeof string);
+
+
+// let someNumber = 33;
+// const stringNumber = String(someNumber)
+// console.log(someNumber);
+// console.log(typeof stringNumber);
 
 // console.log(arr instanceof Array); // true
 
@@ -16,7 +25,7 @@ const myArray = [1, 2, 3, 4, 5, 6, 7, 8]
 // console.log("             ");
 const myArr2 = new Array(1,2,3,4)
 
-// console.log("1",myArr2);
+console.log("1",myArr2);
 
 
 // Array methods
@@ -43,32 +52,27 @@ const myHeroes = ["shaktiman", "naagraj"]
 // console.log(myArray.includes(5));
 // console.log(myArray.indexOf(8));
 
-// const newArr = myArray.join()  //important
-// console.log("11",myArray);
-// console.log(typeof myArray);
-// console.log(newArr);
-// console.log(typeof newArr);
+const newArr = myArray.join()  //important
+console.log("11",myArray);
+console.log(typeof myArray);
+console.log(newArr);
+console.log(typeof newArr);
 
 
 // slice ,splice 
 
 let arrs = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 
-console.log("A",arrs);
-const myn1 = arrs.slice(1, 3)
+// console.log("A",arrs);
+// const myn1 = arrs.slice(1, 3)
 
-console.log(myn1);
-console.log("B", arrs);
+// console.log(myn1);
+// console.log("B", arrs);
 
-const myn2 = arrs.splice(1, 3)
-console.log(myn2);
-console.log("c", arrs);
-
-
-const myn3 = arrs.slice(0,4)        // ? ?
-console.log(myn3);
+// const myn2 = arrs.splice(1, 3);
+// console.log(myn2);
+// console.log("c", arrs);
 
 
-
-
-
+// const myn3 = arrs.slice(0,4)
+// console.log(myn3);

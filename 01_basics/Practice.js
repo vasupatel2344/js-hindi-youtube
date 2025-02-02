@@ -268,7 +268,7 @@ var num2 = "100"
 // console.log(num2);
 
 
-// // 3:- interview qustion
+// // 3:- interview question
 
 // var num1 = '1';
 // var num2 = '5';
