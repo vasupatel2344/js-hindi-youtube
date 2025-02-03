@@ -10,6 +10,7 @@
 
 // MyName()
 
+
 // function addTwoNumber(number1, number2) {
 //     console.log(number1 * number2);
 // }
@@ -17,19 +18,16 @@
 // addTwoNumber(5, 10)
 
 
+// function addTwoNumber(number1, number2) {
+//     return (number1 + number2)
+// }
 
-function addTwoNumber(number1, number2) {
-    console.log(number1 + number2);
 
-}
-
-// addTwoNumber(5, 10)
-// console.log("result", result);
-
+// console.log("result", addTwoNumber(5, 10));
 
 
 // function loginUserMessage(username ="sam"){    // 
-//     console.log("Hello Gentlemen");
+//     console.log("Hello Gentlemen!");
 //     if(!username){      // username === undefined
 //         console.log("Please enter a username for login...");
 //     }else {
@@ -39,14 +37,14 @@ function addTwoNumber(number1, number2) {
     
 // }
 
-// const userMessage = loginUserMessage("Vasu_Vegda");
+// const userMessage = loginUserMessage();
 
 // console.log(userMessage);
 
 
-function calculateCartPrice(...num1) {
-    return num1 
-}
+// function calculateCartPrice(...num1) {
+//     return num1 
+// }
 
 // console.log(calculateCartPrice(200,300,400));
 
@@ -56,21 +54,20 @@ const user = {
     price: 999
 }
 
+// function handleobject(userobj){
+//     console.log(`Username is ${userobj.username} and price is ${userobj.price}`);
+// }
 
-function handleobject(userobj){
-    console.log(`Username is ${userobj.username} and price is ${userobj.price}`);
+// handleobject(user)
 
-}
-
-handleobject(user)
 
 const myNewAray = [200,300,400,500]
 
-function secouundobj (getArray){
+function secoundobj (getArray){
     return getArray  
 }
 
-console.log(secouundobj(myNewAray));
+console.log(secoundobj(myNewAray));
 
 
 
