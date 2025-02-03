@@ -1,15 +1,65 @@
 // Immediately Invoked Function Expressions (IIFE)
 
-(function chai(name) {
-    console.log(`DB CONNECTED  ${name}`);
+(function chai() {
+    console.log(`chai or CODE`)
+})();
 
-})('vasu');
 
+( () => {
+    console.log(` chai or CODE`);
+    
+} )();
 
 ( (name) => {
-    console.log(`DB CONNECTED TWO ${name}`);
+    console.log(` chai or CODE ${name}`);
     
-})('vasu');
+} )('Vasu')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (function chai(name) {
+//     console.log(`DB CONNECTED  ${name}`);
+
+// })('vasu');
+
+
+// ((name) => {
+//     console.log(`DB CONNECTED TWO ${name}`);
+
+// })('vasu');
 
 
 // ("function definition")  (execution)
@@ -21,17 +71,17 @@
 // console.log(chai(11));
 
 
-let val1 = 10;
-let val2 = 5;
+// let val1 = 10;
+// let val2 = 5;
 
-function addnum(num1, num2) {
-    let total = num1 + num2;
-    return  total
-}
+// function addnum(num1, num2) {
+//     let total = num1 + num2;
+//     return total
+// }
 
-let result1 = addnum(val1,val2);
-let result2 = addnum(10,5);
+// let result1 = addnum(val1, val2);
+// let result2 = addnum(10, 5);
 
-// result1()
+// // result1()
 
-console.log(result1,result2);
+// console.log(result1, result2);
