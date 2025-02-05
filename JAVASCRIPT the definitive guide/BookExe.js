@@ -1,6 +1,8 @@
 
-let primes = [2, 3, 5, 7];
-let prime = primes[primes.length - 3];
+let primes = [2, 347865, 5, 7];
+console.log(primes.length);
+
+let prime = primes[primes.length - 4];
 
 console.log(prime);
 
@@ -19,3 +21,4 @@ let x = 2, y = 3;
 let z = (x > 3) || (y < 3);
 
 console.log(z);
+
