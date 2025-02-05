@@ -5,7 +5,7 @@ let prime = primes[primes.length - 3];
 console.log(prime);
 
 
-function fact(x) {
+function fact(x) {           //  ??
     if (x > 1) return x * fact(x - 1);
     else return 1;
 }
