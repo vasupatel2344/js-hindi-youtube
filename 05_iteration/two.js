@@ -50,4 +50,37 @@ let arr = 0;
 
 
 
+// const changefrutName = querySelector('h1').style.color = 'blue';
+// console.log(changefrutName);
+
+// array.forEach(element => {
+    
+// });
+
+
+
+
+// parent.children[1].style.color = "orange"
+// console.log(parent.firstElementChild);
+// console.log(parent.secondElementChild);
+// console.log(parent.lastElementChild);
+
+console.log(Math.random());
+
+console.log(Math.random()*10);
+
+// const crypto = require('crypto');
+
+// function generateSecureOTP(length = 6) {
+//     return crypto.randomInt(0, Math.pow(10, length)).toString().padStart(length, '0');
+// }
+
+// console.log(generateSecureOTP()); // Example output: 827364
+
+
+let x = "10"
+let y = 50
+
+// console.log(x*y);
+
 
