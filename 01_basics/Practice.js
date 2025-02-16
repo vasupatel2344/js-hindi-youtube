@@ -416,7 +416,7 @@ for(var num = 10; num <= 100; num++){
 // debugger;
 // for (var num = 1; num <= 10; num++){
 //     var tableof = 8;
-    console.log(tableof + " + " + num + " = " + tableof * num);
+    // console.log(tableof + " + " + num + " = " + tableof * num);
 //     }
 ///////////////////////////////////////////////////////////
 
@@ -767,13 +767,13 @@ var myfrinds = ['vasu','jeel','harsh','fevil']
 // const  months = ['jan' , 'march', 'april' , 'june' , 'july'];
 
 // const indexofMonth = months.indexOf('april');
-// if(indexofMonth != -1 ){
-//   const updateMonths = months.splice(indexofMonth,Infinity);
-//   console.log(months);
-//   console.log(updateMonths);
-// }else{
+// if(indexofMonth == -1 ){
 //   console.log('no such a data found');  
-// } 
+// }else{
+//   const updateMonths = months.splice(indexofMonth,3);
+//   console.log("1",months);
+//   console.log("2",updateMonths);
+// }
 
 // 11:challenge time
 
@@ -786,7 +786,7 @@ var myfrinds = ['vasu','jeel','harsh','fevil']
 
 // returns a new Array containing the returens of calling  a function on every element in this array.Array
 
-//const array1 = [1,4,9,16,25];
+// const array1 = [1,4,9,16,25];
 // num > 9
 
 

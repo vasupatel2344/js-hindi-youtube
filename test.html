@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>createTextNode Example</title>
+    <style>
+        .red-text {
+            color: red;
+        }
+
+        .box {
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul id="myList">
+        <li>rtyuryu</li>
+        <lierturtu>
+            </li>
+            <li>etryretyy</li>
+            <li>rturetu</li>
+            <li>rtyu</li>
+            <li>eruru</li>
+            <li>erurtu</li>
+    </ul>
+
+    <div class="container">
+        <div class="box">
+            <span class="child-box">
+                Hello
+            </span>
+            <span class="child-box">
+                Hello
+            </span>
+            <div>Hi</div>
+        </div>
+        <div class="container">
+            <ul id="language">
+                <li id="lisa" data-game="mario" data-player="vasu"><button>HTML</button></li>
+                <p>This is some text.</p>
+                <button id="text" onclick="toggleTextColor()">Toggle Text Color</button>
+
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+            </ul>
+
+            <!-- atribute  -->
+
+            <div class="hey" id="first">
+                Hey I am first container
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script>
+    function addListItem(text) {
+        // Create an <li> element
+        let li = document.createElement("li");
+
+        // Create a text node with the given text
+        let textNode = document.createTextNode(text);
+
+        // Append the text node to the <li> element
+        li.appendChild(textNode);
+
+        // Append the <li> to the <ul>
+        document.getElementById("myList").appendChild(li);
+    }
+
+    // Call the function to add a list item
+    addListItem("Hello, this is a new list item!");
+
+
+
+
+
+
+
+
+    // click event listener
+
+    const lang_list = document.getElementById('language');
+    const lang_li = document.querySelector('li');
+    const btn = document.querySelector('button');
+    // lang_li.setAttribute('style', 'background: black')
+    // lang_li.removeAttribute('style')
+    // language.removeChild(lang_li)
+    // console.log(lang_li.attributes);
+
+
+    // data star attributes
+
+    console.log(lang_li.dataset.game);
+
+
+    // let lets =  (1234, 2345235)
+    // let lets =  (1234, 2345235)
+
+
+    // var ab  =  20;
+
+    var cd = 10;                // this is function scope
+    function abc() {
+        var cd = 20
+        console.log(cd);
+    }
+    abc();
+
+    // let border = document.querySelector('button');
+    // border.style.border = 'none'
+
+    // lang_li.addEventListener('click' ,() => {
+    //     console.log('click');
+    //     const lang_lis = document.querySelector('button');
+    //     lang_lis.style.backgroundColor = 'green'
+    //     lang_lis.style.color = 'white'
+    // } )
+
+    // // click toggle text color
+
+    // function toggleTextColor() {
+    // const textElement = document.getElementById("text");
+    // textElement.classList.toggle("red-text");  // ??
+    // }
+
+
+
+    function addlanguages(langName) {
+        const li = document.createElement('li');
+        console.log(li)
+        li.innerText = langName
+        document.querySelector('#language').appendChild(li)
+
+        const lis = document.createElement('li')
+        const butn = document.createElement('button');
+        butn.textContent = langName;
+        lis.textContent = langName;
+        console.log(butn);
+        console.log(lis);
+        const create_attribute = document.createAttribute('id', 'create');
+        create_attribute.value = 'test';
+        element.setAttributeNode(create_attribute).appendChild(create_attribute)
+        document.querySelector('body').appendChild(butn);
+        document.querySelector('#language').appendChild(lis)
+    }
+
+    addlanguages('html')
+    addlanguages('javascripts')
+
+
+    // get Attribute values
+
+    let a = first.getAttribute('class')
+    console.log(a);
+    console.log(first.hasAttribute('class'))
+    console.log(first.hasAttribute('style'))
+    // first.setAttribute('hidden', 'true')
+    // first.removeAttribute('class')
+    const addAtribute = document.querySelector('#language');
+    const remove = document.querySelector('li:last-child');
+
+
+    // create Text node
+
+    // function addtextnote(addlangn_name){
+    //     const new_li = document.createElement('li');
+    //     let textNode = document.createTextNode(addlangn_name);
+    //     console.log(new_li);
+    //     new_li.appendChild(textNode);
+    //     document.querySelector('ul').appendChild(new_li )
+
+    // const New_li = document.createElement('li');
+    // New_li.appendChild(document.createTextNode(addlangn_name));
+    // document.querySelector('.language').appendChild(New_li)
+    // }
+    // addtextnote('JS')
+
+
+    // remove child 
+
+    // const lang = document.getElementById('language')
+    // const Child = document.querySelector('li:last-child')
+
+    // const removeChild = lang.removeChild(Child)
+
+    // function addlang(addlangName) {
+    //     const li = document.createElement('li')
+    //     li.appendChild(document.createTextNode(addlangName))
+    //     document.querySelector('.language').appendChild(li)
+    // }
+
+    // addlang("MongoDB");
+
+    // console.log(mongodb);
+
+    // const firstchaild = document.querySelector("li:nth-child(1)")
+
+    const ul_parent = document.querySelector("ul");
+    const create_new_li = document.createElement("li");
+    create_new_li.textContent = "New Language";
+    ul_parent.appendChild(create_new_li);
+    ul_parent.removeChild(create_new_li);
+
+    // const parent = document.getElementById("parent");
+    // const child = document.getElementById("child");    
+
+    // const throwawayNode = parent.removeChild(child)
+
+
+    function addOptiLanguage(langName) {
+        const li = document.createAttribute('title', 'language');
+        // li.appendChild(langName)
+    }
+
+    addOptiLanguage('javascript');
+
+
+
+    // function addAttribute(Hello) {
+    //     const atri = document.createAttribute('li')
+    //     atri.textContent = Hello
+    //     document.body.appendChild(atri); // Appending it to the document body
+    //     return Hello;
+    // }
+
+    // addAttribute('javascript');
+
+    // function addatribute (name, value){
+    //     const atri = document.createAttribute('')
+    // }
+
+
+
+</script>
+
+</html>

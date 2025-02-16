@@ -7,7 +7,7 @@ marvel_heros.push(dc_heros);
 // marvel_heros.push(dc_heros);
 
 console.log(marvel_heros);
-console.log(marvel_heros[1][2]);   // ? ?
+// console.log(marvel_heros[1][3]);
 
 marvel_heros.concat(dc_heros);
 console.log("1-marge", marvel_heros);
@@ -15,7 +15,7 @@ console.log("1-marge", marvel_heros);
 
 const allNewHeros = [...marvel_heros, ...dc_heros]  // spared operator
 
-console.log("2-spred", allNewHeros);
+// console.log("2-spred", allNewHeros);
 
 
 
@@ -53,7 +53,7 @@ let score3 = 300;
 
 let arrays = [[1, 2], [3, 4], [5, 6]];
 let mergedArray = arrays.reduce((acc, val) => acc.concat(val), []);    // ? ?
-console.log(mergedArray); // [1, 2, 3, 4, 5, 6]
+// console.log(mergedArray); // [1, 2, 3, 4, 5, 6]
 
 
 

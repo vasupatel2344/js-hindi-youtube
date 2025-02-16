@@ -3,13 +3,16 @@
 // [] => square bracket
 // {} => curly braces
 
-let arr = [1, 2, 3];
+let arr = {"1":"a", "2": "b", 3 : "c"};
 
 console.log(typeof arr);
 console.log(Array.isArray(arr));
 
-const string = String(arr);0
+const string = String(arr);
 console.log(typeof string);
+
+
+
 
 
 // let someNumber = 33;
@@ -53,10 +56,10 @@ const myHeroes = ["shaktiman", "naagraj"]
 // console.log(myArray.indexOf(8));
 
 const newArr = myArray.join()  //important
-console.log("11",myArray);
-console.log(typeof myArray);
-console.log(newArr);
-console.log(typeof newArr);
+// console.log("11",myArray);
+// console.log(typeof myArray);
+// console.log(newArr);
+// console.log(typeof newArr);
 
 
 // slice ,splice 

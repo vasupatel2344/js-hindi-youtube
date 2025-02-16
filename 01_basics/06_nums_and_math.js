@@ -9,7 +9,7 @@ const balance = new Number(1000 * 1000);
 // const balances = score + " " + typeof balance;
 // console.log(`My balance is ${balance}`);
 
-console.log("122",balance);
+// console.log("122",balance);
 
 
 // console.log('1', balance.toFixed());
@@ -18,7 +18,7 @@ console.log("122",balance);
 // console.log('4', balance.toLocaleString());
 // console.log('5', balance.toLocaleString('en-In'));
 // console.log('6', balance.toFixed(4));
-console.log('7', isNaN(balance));
+// console.log('7', isNaN(balance));
 
 
 const balance2 = 22333464
@@ -67,5 +67,19 @@ const random = Math.random()
 // console.log("1", Math.max(Math.ceil(random * min_plush_min) + max) && ("2", Math.floor(random * min_plush_max) - max));
 
 
+const math = (24 * 5)
+console.log(math);
 
+a = 0.1
+b = 0.2
+c = 0.3
+
+console.log(a + b == c);
+
+const mathpower = Math.pow(3, 10) 
+console.log(mathpower);
+
+
+const mathsqrt = Math.sqrt(100);
+console.log(mathsqrt);
 

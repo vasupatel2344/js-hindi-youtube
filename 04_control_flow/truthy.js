@@ -26,7 +26,11 @@ if (userEmail.length === 0) {
 
 }
 
-const emptyObject = "";
+const emptyObject = { 1: "a", 2: "b", 3: "c", 4: "b" };
+
+let b = Object.keys(emptyObject);
+console.log(b.length);
+
 
 if (Object.keys(emptyObject).length === 0) {        // ? ?
     console.log("Object is empty");
@@ -52,11 +56,4 @@ console.log(val1);
 
 const iceTeaPrice = 100
 iceTeaPrice <= 80 ? console.log("less then 80") : console.log("more then 80");
-
-
-
-
-
-
-
 

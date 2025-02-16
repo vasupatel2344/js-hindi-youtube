@@ -31,7 +31,7 @@ coding.forEach(printMe);
 const myObject = [
     {
         languageName : 'javascript',
-        languageFileName : 'js'
+        languageFileName :['1', '2', '3','5'].length,
     },
     {
         languageName : 'java',
@@ -46,10 +46,4 @@ const myObject = [
 myObject.forEach( (item ,array, index) => {
     console.log(item.languageName , index, array);
 })
-
-
-
-
-
-
 

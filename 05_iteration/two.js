@@ -83,4 +83,29 @@ let y = 50
 
 // console.log(x*y);
 
+let a = 18
+
+if (a < 17) {
+    console.log("you can vote");
+    
+} else if (a > 17) {
+    console.log("you can't vote");
+} else if (a > 17) {
+    console.log("you can't vote");
+}else{
+    console.log("vote");
+    
+}
+
+
+function fun() {
+    var a = 10;
+    console.log(x);
+}
+
+fun();
+console.log(x);
+
+
+
 

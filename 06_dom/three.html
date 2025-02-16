@@ -8,27 +8,39 @@
 </head>
 
 <body style="background-color: black; color: white;">
-    <div id="aa">
 
-    </div>
 </body>
 <script>
 
-    const div = document.createElement('div');
-    console.log(div);
-    div.className = 'container'
-    div.id = Math.round(Math.random() * 10 );
+    const div1 = document.createElement('div')
+    div1.className = 'container'
+    div1.id = Math.round(Math.random() * 10 );
+    // const addtext = document.createTextNode('I am Vasu Patel')
+    // div1.appendChild(addtext);
+    document.body.appendChild(div1)
+    const apendchild = document.createTextNode("I am a frontend developer")
+    div1.appendChild(apendchild)
+    console.log(div1);
+    
 
-uyf
 
-
-
-    const create_h1 = document.createElement('h1')
-    create_h1.textContent = 'Hello, world!';
-    create_h1.style.color = 'green';
-    document.getElementById('aa').appendChild(create_h1);
+    // const create_h1 = document.createElement('h1');
+    // create_h1.textContent = 'Hello, world!';
+    // create_h1.style.color = 'green';
+    // document.getElementById('aa').appendChild(create_h1);
     // idsDiv.appendChild(create_h1);
+
+    // const div = document.createElement('div');
+    // div.setAttribute("title", "generated title")
+    // div.style.backgroundColor = 'aqua'
+    // div.style.padding = "15px"
+    // div.innerText0 = "Hello, this is a div!"
+    // document.body.append(div)
+    // document.body.appendChild(div);
+
+
 
 </script>
 
 </html>
+

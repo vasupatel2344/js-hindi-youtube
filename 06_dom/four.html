@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai or Code | DOM</title>
+</head>
+
+<body style="background-color: #212121; color: white;">
+    <div class="container">
+        <ul class="language">
+            <li>Javascript</li>
+            
+        </ul>
+    </div>
+
+</body>
+<script>
+    function addlang(langName) {
+        const li = document.createElement('li')
+        li.innerHTML = `${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+    addlang('HTML')
+    addlang('CSS')
+
+    const li_ = document.createElement('li')
+    li_.innerHTML = 'React.js'
+    document.querySelector('.language').appendChild(li_)
+
+    // add optimizations
+
+    function editLang(langName) {
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        console.log(li);
+        document.querySelector('.language').appendChild(li)
+    }
+    editLang('Golang')
+
+    // Edit = replace 
+
+    const secoundLang = document.querySelector('li:nth-child(2)')
+    const newli = document.createElement('li')
+    newli.textContent ='Mojo'
+    secoundLang.replaceWith(newli)
+
+
+    const secoundLangs = document.querySelector('li:nth-child(3)')
+    const newlis = document.createElement('li')
+    newlis.textContent ='Mojo'
+    document.querySelector('li:nth-child(3)').appendChild(newlis)
+    
+
+    const firstLang = document.querySelector('li:first-child')
+    firstLang.outerHTML = '<li>TypeScript</li>'
+
+    // removeLang
+
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
+
+
+    function removeLang(langName) {
+        const li = document.querySelector(`.language li:contains(${langName})`)
+        li.parentNode.removeChild(li)
+    }
+
+    function hdh(params) {
+        const li = document.querySelector(li)
+        li.appendChild(document.createTextNode(params))
+        document.querySelector(li).appendChild(li)
+    }
+
+
+</script>
+
+</html>
